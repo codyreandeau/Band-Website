@@ -11,7 +11,7 @@ var main = function() {
 
   $('.icon-close').click(function() {
     $('.menu').animate({
-      left: "-148px"
+      left: "-123px"
     }, 200);
   });
 

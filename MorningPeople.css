@@ -1,13 +1,10 @@
-body {
-  background-color:black;
-  left: 0;
-  margin: 0;
-  position: relative;
-}
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    background-color:black;
+    left: 0;
+    margin: 0;
+    position: relative;
 }
 
 img {
@@ -17,8 +14,8 @@ img {
 
 div img {
 	border-bottom:2px solid white;
-	height:70px;
-	width:75px;
+	height:60px;
+	width:65px;
 	padding:5px;
 	display: block;
     margin: 0 auto;
@@ -62,6 +59,20 @@ a {
 	text-decoration: none;
 }
 
+header {
+	margin-top:-10px;
+}
+
+footer {
+	color:white;
+    position: absolute;
+    bottom:-10px;
+    right:0;
+    padding-right: 50px;
+	font-size: 14px;
+	margin:5px;
+}
+
 #home:hover {
     background-color:#3333ff;
 }
@@ -100,14 +111,14 @@ a {
 
 .menu {
   background-color:#ccccff; 
-  height: 500px;
+  height: 440px;
   position: absolute;
-  width: 145px;
+  width: 120px;
   border-right: 3px solid white;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
   margin-top: 100px;
-  left:-148px;
+  left:-123px;
   padding-top:10px;
 }
 
@@ -164,17 +175,6 @@ a {
 	font-family: sans-serif;
 }
 
-.footer {
-	color:white;
-    position: absolute;
-    bottom:0;
-    right:0;
-    padding-right: 50px;
-	font-size: 14px;
-	margin:5px;
-}
-
-
 .container {
 	margin-top:10px;
 	margin-bottom:-12px;
@@ -184,8 +184,6 @@ a {
 	height:500px;
 	z-index:100;
 }
-
-
 
 .subcontainer {
 	width: 640px;
