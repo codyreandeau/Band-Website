@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -5,6 +8,7 @@ html, body {
     left: 0;
     margin: 0;
     position: relative;
+ 
 }
 
 img {
@@ -26,8 +30,8 @@ nav div {
 	width: 100px;
 	background-color:black;
 	color:white;
-	font-size:35px;
-	font-family:Goudy Old Style;
+	font-size:50px;
+	font-family:'Amatic SC';
 	font-weight:bold;
 	text-align:center;
 	margin-left: auto;
@@ -43,16 +47,17 @@ iframe {
 }
 
 ul {
-	font-size:22px;
-	font-family:Times;
+	font-size:30px;
+	font-weight: bold;
+	font-family:'Amatic SC';
 }
 
 article
 {
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: bold;
 	margin-left: 10px;
-	font-family: Goudy Old Style;
+	font-family: 'Amatic SC';
 }
 
 a {
@@ -66,9 +71,10 @@ header {
 footer {
 	color:white;
     position: absolute;
-    bottom:-10px;
+    bottom:10px;
     right:0;
     padding-right: 50px;
+    font-family:'Special Elite';
 	font-size: 14px;
 	margin:5px;
 }
@@ -102,7 +108,7 @@ footer {
 }
 
 #icon-hover:hover {
-  font-size:26px;
+  font-size:42px;
 }
 
 #close:hover {
@@ -117,14 +123,14 @@ footer {
   border-right: 3px solid white;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
-  margin-top: 100px;
+  margin-top: 120px;
   left:-123px;
   padding-top:10px;
 }
 
 .contact-menu {
   background-color:#dfb3ff; 
-  height: 60px;
+  height: 90px;
   position: absolute;
   width: 330px;
   border-left: 3px solid white;
@@ -139,15 +145,15 @@ footer {
   position: absolute;
   color: white;
   cursor: pointer;
-  font-family: Goudy Old Style;
-  font-size: 25px;
+  font-family: 'Amatic SC';
+  font-size: 40px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   width:330px;
   margin: 0;
   padding: 0;
-  left:20px;
+  left:50px;
   margin-top:40px;
 }
 
@@ -196,7 +202,7 @@ footer {
 }
 
 .menucontainer {
-	margin-top: 150px;
+	margin-top: 125px;
 	width: 120px;
 	height: 220px;
 	float:left;
@@ -204,9 +210,9 @@ footer {
 }
 
 .subcontainer p  {
-	font-family: Goudy Old Style;
+	font-family: 'Amatic SC';
 	color: black;
-	font-size: 28px;
+	font-size: 40px;
 	font-weight: bold;
 	margin-top: 5px;
 	margin-bottom: 4px;
@@ -216,15 +222,17 @@ footer {
 
 .subcontainer p + p {
 	color:black;
-	font-size: 14px;
+	font-size: 20px;
+	font-weight:bold;
 	text-align: left;
 	margin-left: 15px;
 	font-family: Times;
+	font-family: 'Amatic SC'
 }
 
 .alien {
 	position:absolute;
-	top:75px;
+	top:95px;
 	right:10px;
 }
 
@@ -232,23 +240,23 @@ footer {
   position: absolute;
   color: white;
   cursor: pointer;
-  font-family: Goudy Old Style;
-  font-size: 25px;
+  font-family: 'Amatic SC';
+  font-size: 40px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   width:330px;
   margin: 0;
   padding: 0;
-  right:20px;
+  right:-10px;
   margin-top:40px;
 }
 
 .contact-menu p {
 	position: relative;
-	font-family: Goudy Old Style;
+	font-family: 'Amatic SC';
 	color: black;
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: bold;
 	text-align:center;
 	bottom:9px;
