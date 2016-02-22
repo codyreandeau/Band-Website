@@ -8,7 +8,10 @@ html, body {
     left: 0;
     margin: 0;
     position: relative;
- 
+}
+
+body{
+	overflow-y:hidden;
 }
 
 img {
@@ -27,7 +30,7 @@ div img {
 
 nav div {
 	height: 50%;
-	width: 100px;
+	width: 65%;
 	background-color:black;
 	color:white;
 	font-size:50px;
@@ -39,22 +42,22 @@ nav div {
 }
 
 iframe {
-	width:600px;
-	height:370px;
+	width:95%;
+	height:75%;
 	border: 2px solid white;
 	display: block;
     margin: 0 auto;
 }
 
 ul {
-	font-size:30px;
+	font-size:32px;
 	font-weight: bold;
 	font-family:'Amatic SC';
 }
 
 article
 {
-	font-size: 30px;
+	font-size: 35px; 
 	font-weight: bold;
 	margin-left: 10px;
 	font-family: 'Amatic SC';
@@ -73,10 +76,14 @@ footer {
     position: absolute;
     bottom:10px;
     right:0;
-    padding-right: 50px;
+    padding-right: 20px;
     font-family:'Special Elite';
 	font-size: 14px;
 	margin:5px;
+}
+
+hr {
+	border:1px white solid;
 }
 
 #home:hover {
@@ -108,7 +115,7 @@ footer {
 }
 
 #icon-hover:hover {
-  font-size:42px;
+  font-size:3.2vw;
 }
 
 #close:hover {
@@ -116,8 +123,8 @@ footer {
 }
 
 .menu {
-  background-color:#ccccff; 
-  height: 440px;
+  background-color:#db4dff; 
+  height: 450px;
   position: absolute;
   width: 120px;
   border-right: 3px solid white;
@@ -126,6 +133,7 @@ footer {
   margin-top: 120px;
   left:-123px;
   padding-top:10px;
+  z-index: 100;
 }
 
 .contact-menu {
@@ -139,6 +147,7 @@ footer {
   top: 425px;
   right:-333px;
   padding-top:10px;
+  z-index: 100;
 }
 
 .icon-menu {
@@ -146,7 +155,7 @@ footer {
   color: white;
   cursor: pointer;
   font-family: 'Amatic SC';
-  font-size: 40px;
+  font-size: 3vw;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -155,6 +164,18 @@ footer {
   padding: 0;
   left:50px;
   margin-top:40px;
+}
+
+@media (max-width:1200px) {
+	.icon-menu {
+		margin-top:15px;
+	}
+}
+
+@media (max-width:900px) {
+	.icon-menu {
+		margin-top:5px;
+	}
 }
 
 .icon-close {
@@ -184,17 +205,18 @@ footer {
 .container {
 	margin-top:10px;
 	margin-bottom:-12px;
-	margin-left: auto;
+	margin-left: 15%;
 	margin-right: auto;
-	width:900px;
+	width:80%;
 	height:500px;
 	z-index:100;
 }
 
 .subcontainer {
-	width: 640px;
+	position:relative;
+	width: 63%;
 	height: 520px;
-	float: right;
+	float: left;
 	margin-right:130px;
 	overflow-y: auto;
 	background-color:lightcoral;
@@ -203,21 +225,29 @@ footer {
 
 .menucontainer {
 	margin-top: 125px;
-	width: 120px;
+	width: 12%;
 	height: 220px;
 	float:left;
 	background-color:black;
 }
 
+@media (max-width:1000px) {
+	.menucontainer {
+		margin-left:-100px;
+	}
+}
 .subcontainer p  {
 	font-family: 'Amatic SC';
 	color: black;
-	font-size: 40px;
+	font-size: 38px;
 	font-weight: bold;
 	margin-top: 5px;
 	margin-bottom: 4px;
-	text-align: left;
 	margin-left: 15px;
+}
+
+.center {
+	text-align: center;
 }
 
 .subcontainer p + p {
@@ -230,10 +260,29 @@ footer {
 	font-family: 'Amatic SC'
 }
 
+@media (max-width:640px) {
+	.subcontainer p{
+		width: auto;
+		text-align: none
+	}
+
+	.subcontainer p + p{
+		width: auto;;
+		text-align: none
+	}
+}
+
+
 .alien {
 	position:absolute;
 	top:95px;
 	right:10px;
+}
+
+@media (max-width:1250px) {
+	.alien {
+		visibility: hidden;
+	}
 }
 
 .icon-menu-contact {
@@ -241,7 +290,7 @@ footer {
   color: white;
   cursor: pointer;
   font-family: 'Amatic SC';
-  font-size: 40px;
+  font-size: 3vw;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -250,6 +299,20 @@ footer {
   padding: 0;
   right:-10px;
   margin-top:40px;
+}
+
+@media (max-width:1200px) {
+	.icon-menu-contact {
+		right:-150px;
+		margin-top:15px;
+	}
+}
+
+@media (max-width:900px) {
+	.icon-menu-contact {
+		right:-150px;
+		margin-top:5px;
+	}
 }
 
 .contact-menu p {
@@ -262,4 +325,39 @@ footer {
 	bottom:9px;
 	padding:1px;
 	background-color:#99ff99;
+}
+
+.logo {
+	max-width: 100%;
+    height: auto;
+}
+
+@media (max-width:1200px) {
+	.logo {
+		margin-top:-10px;
+		content:url('logomedium.png');
+	}
+}
+
+@media (max-width:900px) {
+	.logo {
+		margin-top:-10px;
+		content:url('logosmall.png');
+	}
+}
+
+@media (max-width:600px) {
+	.logo {
+		visibility: hidden;
+	}
+}
+
+@media (max-width:1350px) {
+	footer {
+		position:relative;
+		clear:both;
+		bottom:0;
+		text-align: center;
+		top:10px;
+	}
 }
