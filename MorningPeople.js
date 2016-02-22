@@ -27,7 +27,7 @@ var main = function() {
 
   $('.contact-icon-close').click(function() {
     $('.contact-menu').animate({
-      right: "-333px"
+      right: "-303px"
     }, 200);
   });
 };

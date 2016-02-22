@@ -123,7 +123,7 @@ hr {
 }
 
 .menu {
-  background-color:#db4dff; 
+  background-color:#e580ff; 
   height: 450px;
   position: absolute;
   width: 120px;
@@ -137,10 +137,10 @@ hr {
 }
 
 .contact-menu {
-  background-color:#dfb3ff; 
+  background-color:#6666ff; 
   height: 90px;
   position: absolute;
-  width: 330px;
+  width: 300px;
   border-left: 3px solid white;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
