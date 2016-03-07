@@ -301,20 +301,6 @@ hr {
   margin-top:40px;
 }
 
-@media (max-width:1200px) {
-	.icon-menu-contact {
-		right:-150px;
-		margin-top:15px;
-	}
-}
-
-@media (max-width:900px) {
-	.icon-menu-contact {
-		right:-150px;
-		margin-top:5px;
-	}
-}
-
 .contact-menu p {
 	position: relative;
 	font-family: 'Amatic SC';
@@ -346,7 +332,7 @@ hr {
 	}
 }
 
-@media (max-width:600px) {
+@media (max-width:700px) {
 	.logo {
 		visibility: hidden;
 	}
@@ -360,4 +346,23 @@ hr {
 		text-align: center;
 		top:10px;
 	}
+}
+
+@media (max-width:1200px) {
+	.icon-menu-contact {
+		right:-100px;
+		margin-top:15px;
+	}
+}
+
+@media (max-width:900px) {
+	.icon-menu-contact {
+		right:-100px;
+		margin-top:5px;
+	}
+}
+
+@media (max-width:1200px) {
+.container {
+	padding-left:75px;
 }
