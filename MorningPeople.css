@@ -86,6 +86,10 @@ hr {
 	border:1px white solid;
 }
 
+li a:hover {
+	color:#7f00ff;
+}
+
 #home:hover {
     background-color:#3333ff;
 }
@@ -166,18 +170,6 @@ hr {
   margin-top:40px;
 }
 
-@media (max-width:1200px) {
-	.icon-menu {
-		margin-top:15px;
-	}
-}
-
-@media (max-width:900px) {
-	.icon-menu {
-		margin-top:5px;
-	}
-}
-
 .icon-close {
 	cursor: pointer;
 	width: 12px;
@@ -231,11 +223,6 @@ hr {
 	background-color:black;
 }
 
-@media (max-width:1000px) {
-	.menucontainer {
-		margin-left:-100px;
-	}
-}
 .subcontainer p  {
 	font-family: 'Amatic SC';
 	color: black;
@@ -260,29 +247,10 @@ hr {
 	font-family: 'Amatic SC'
 }
 
-@media (max-width:640px) {
-	.subcontainer p{
-		width: auto;
-		text-align: none
-	}
-
-	.subcontainer p + p{
-		width: auto;;
-		text-align: none
-	}
-}
-
-
 .alien {
 	position:absolute;
 	top:95px;
 	right:10px;
-}
-
-@media (max-width:1250px) {
-	.alien {
-		visibility: hidden;
-	}
 }
 
 .icon-menu-contact {
@@ -366,3 +334,40 @@ hr {
 .container {
 	padding-left:75px;
 }
+
+@media (max-width:1200px) {
+	.icon-menu {
+		margin-top:15px;
+	}
+}
+
+@media (max-width:900px) {
+	.icon-menu {
+		margin-top:5px;
+	}
+}
+
+@media (max-width:1250px) {
+	.alien {
+		visibility: hidden;
+	}
+}
+
+@media (max-width:640px) {
+	.subcontainer p{
+		width: auto;
+		text-align: none
+	}
+
+	.subcontainer p + p{
+		width: auto;;
+		text-align: none
+	}
+}
+
+@media (max-width:1000px) {
+	.menucontainer {
+		margin-left:-100px;
+	}
+}
+
