@@ -286,6 +286,10 @@ li a:hover {
     height: auto;
 }
 
+.sidenote {
+	list-style-type: square;
+}
+
 @media (max-width:1200px) {
 	.logo {
 		margin-top:-10px;
