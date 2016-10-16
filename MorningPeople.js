@@ -30,6 +30,10 @@ var main = function() {
       right: "-303px"
     }, 200);
   });
+
+  $(document).ready(function() {
+    $(".shake").effect("bounce", 500);
+  });
 };
 
 $(document).ready(main);
